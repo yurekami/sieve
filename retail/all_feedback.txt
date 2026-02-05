@@ -1,0 +1,31 @@
+Discount Rules:
+- If customer is a student AND total spend is at least $50, apply 10% discount to total purchase
+- If customer is a senior citizen AND total spend is at least $50, apply 15% discount to total purchase
+- If customer is a employee AND total spend is at least $50, apply 20% discount to total purchase
+- If customer is a teacher AND total spend is at least $50, apply 10% discount to total purchase
+- If customer is a student AND cart contains electronics, apply 15% discount on electronics items only
+- If customer is a student AND cart contains books, apply 15% discount on books items only
+- If customer is a senior citizen AND cart contains food, apply 20% discount on food items only
+- If customer is a veteran AND cart contains electronics, apply 5% discount on electronics items only
+- If customer is a employee AND cart contains home, apply 25% discount on home items only
+- If customer is a teacher AND cart contains books, apply 15% discount on books items only
+- If promo code is 'SAVE20' AND total spend is at least $100, apply 20% discount to total purchase
+- If promo code is 'WELCOME10', apply $10 fixed discount
+- If customer is a student AND promo code is 'STUDENT15', apply 15% discount to total purchase
+- If promo code is 'HOLIDAY30' AND total spend is at least $150, apply 30% discount to total purchase
+- If promo code is 'NEWBIE5', apply $5 fixed discount
+- If customer is a teacher AND promo code is 'TEACHER10', apply 10% discount to total purchase
+- If promo code is 'BULK10' AND total spend is at least $200, apply 10% discount to total purchase
+- If total spend is at least $150, apply 5% discount to total purchase
+- If total spend is at least $200, apply 10% discount to total purchase
+- If cart contains electronics items AND total electronics spend is $300 or greater, apply 10% discount on electronics items only
+- If cart contains clothing items AND total clothing spend is $75 or greater, apply 10% discount on clothing items only
+- If cart contains books items AND total books spend is $45 or greater, apply 10% discount on books items only
+- If cart contains food items AND total food spend is $30 or greater, apply 10% discount on food items only
+- If cart contains home items AND total home spend is $60 or greater, apply 10% discount on home items only
+- If cart contains sports items AND total sports spend is $90 or greater, apply 10% discount on sports items only
+- If cart contains beauty items AND total beauty spend is $52 or greater, apply 10% discount on beauty items only
+- If cart contains health items AND total health spend is $75 or greater, apply 10% discount on health items only
+- If customer has been a member for 1 or more years, apply 5% discount to total purchase
+- If customer has been a member for 3 or more years, apply 10% discount to total purchase
+- If customer has been a member for 5 or more years, apply 15% discount to total purchase

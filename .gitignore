@@ -1,0 +1,8 @@
+__pycache__/
+.env
+.venv/
+.ruff_cache/
+.claude/
+scratch.ipynb
+temp*
+.DS_Store

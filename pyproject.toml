@@ -1,0 +1,45 @@
+[project]
+name = "sieve"
+version = "0.1.0"
+description = "SIEVE: Sample-Efficient Parametric Learning from Natural Language"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=0.30.0",
+    "bitsandbytes>=0.43.0",
+    "datasets>=4.5.0",
+    "evaluate>=0.4.0",
+    "jinja2>=3.0.0",
+    "litellm>=1.80.0",
+    "matplotlib>=3.10.7",
+    "openai>=1.0.0",
+    "pandas>=2.3.3",
+    "peft>=0.11.0",
+    "pyarrow>=22.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "torch>=2.0.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.40.0",
+    "wandb>=0.15.0",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "vllm==0.12.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.0",
+]
+
+[tool.ruff]
+exclude = [
+    "archive",
+    "plots",
+    "baselines",
+    "cartridges_baseline",
+    "rule_arena",
+    "mtob-official"
+]
